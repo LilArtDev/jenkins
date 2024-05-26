@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/seu-usuario/jenkins-nodejs-project.git'
+                git 'https://github.com/LilArtDev/jenkins.git'
             }
         }
         stage('Install Dependencies') {
